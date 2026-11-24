@@ -1,0 +1,2 @@
+Add your profile photo in this folder and name it profile.jpg. The website will display it automatically.
+c:\Users\yadav\OneDrive\Pictures\Camera Roll\Ajit photo.jpeg

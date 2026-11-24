@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ajit Kumar — B.Tech CSE (AI & ML) student and aspiring software engineer.">
+  <title>Ajit Kumar | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">AK<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Available to connect</p>
+        <h1>Hi, I'm <span>Ajit Kumar.</span></h1>
+        <h2>Computer Science Student <span class="muted">|</span> <span id="typing-text">Aspiring Software Engineer</span></h2>
+        <p class="hero-description">
+          I’m pursuing B.Tech in Computer Science and Engineering (AI &amp; ML).
+          I enjoy learning how technology works and building useful digital solutions.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/Ajit3408" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ajit-kumar-b716a3384/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="image-glow"></div>
+        <!-- Add your photo as images/profile.jpg -->
+        <img class="profile-photo" src="images/profile.jpg" alt="Portrait of Ajit Kumar"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="photo-fallback" aria-label="Profile photo placeholder">AK</div>
+        <span class="image-caption">AJIT KUMAR · AI &amp; ML</span>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A little introduction</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-card">
+        <p>
+          I’m Ajit Kumar, a B.Tech student specialising in Artificial Intelligence
+          and Machine Learning. I’m developing my foundation in programming,
+          web development, and problem-solving. My goal is to grow into a skilled
+          software engineer and contribute to projects that solve real-world problems.
+        </p>
+        <div class="about-facts">
+          <div><span class="fact-number">2025–29</span><span class="fact-label">B.Tech journey</span></div>
+          <div><span class="fact-number">AI &amp; ML</span><span class="fact-label">Specialisation</span></div>
+          <div><span class="fact-number">India</span><span class="fact-label">Based in</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">My learning journey</p>
+        <h2>Education</h2>
+      </div>
+      <article class="timeline-card">
+        <div class="timeline-marker"></div>
+        <div>
+          <span class="date-label">2025 – 2029</span>
+          <h3>Bachelor of Technology (B.Tech)</h3>
+          <p class="accent-text">Computer Science &amp; Engineering — Artificial Intelligence and Machine Learning</p>
+          <p class="muted">Shri Ramswaroop Memorial University</p>
+          <p class="muted">Roll No: 202510101240206</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">What I work with</p>
+        <h2>Technical <span>Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">⌘</span><h3>HTML</h3><p>Semantic page structure</p></article>
+        <article class="skill-card"><span class="skill-icon">✳</span><h3>CSS</h3><p>Layouts and responsive design</p></article>
+        <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Interactive web experiences</p></article>
+        <article class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming fundamentals</p></article>
+        <article class="skill-card"><span class="skill-icon">J</span><h3>Java</h3><p>Object-oriented programming</p></article>
+      </div>
+      <p class="small-note">Skills shown are your current learning areas. Update them as you gain experience.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Things I have worked on</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured-project">
+          <div class="project-top"><span class="project-number">01 / TEAM PROJECT</span><span class="project-arrow">↗</span></div>
+          <h3>AI-Powered Automatic Block Planning</h3>
+          <p>
+            A Smart India Hackathon 2026 concept focused on optimising railway
+            block planning to maximise asset availability for train operations
+            on Indian Railways.
+          </p>
+          <div class="tag-list"><span>AI / ML</span><span>Railways</span><span>SIH 2026</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">02 / PERSONAL</span><span class="project-arrow">↗</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive personal website built with HTML, CSS, and JavaScript to present my background, skills, and work.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card project-placeholder">
+          <div class="project-top"><span class="project-number">03 / UPCOMING</span><span class="project-arrow">＋</span></div>
+          <h3>More projects coming soon</h3>
+          <p>I’m continuing to practise and build projects. This space will feature my next learning milestones.</p>
+          <div class="tag-list"><span>Learning</span><span>Building</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">Have a question or idea?</p>
+          <h2>Let's connect<span>.</span></h2>
+          <p class="contact-copy">I’m open to learning, collaboration, and connecting with fellow students and developers.</p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-label">Email me</p>
+          <a class="email-link" href="mailto:yadavajit3408@gmail.com">yadavajit3408@gmail.com ↗</a>
+          <div class="contact-divider"></div>
+          <p class="contact-label">Find me online</p>
+          <div class="contact-socials">
+            <a href="https://github.com/Ajit3408" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/ajit-kumar-b716a3384/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">AK<span>.</span></a>
+      <p>Designed &amp; built by Ajit Kumar</p>
+      <p>© <span id="year"></span> Ajit Kumar</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
