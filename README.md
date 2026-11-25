@@ -26,4 +26,4 @@ Open `index.html` in a browser, or use the Live Server extension in VS Code.
 5. Select branch `main` and folder `/ (root)`, then save.
 6. Wait for deployment and open the URL shown in the Pages section.
 
-Your URL will look like `https://YOUR-USERNAME.github.io/ajit-portfolio/`.
+Your URL will look like `https://ajitkumar.github.io/ajit-portfolio/`.
